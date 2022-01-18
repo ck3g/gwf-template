@@ -1,9 +1,9 @@
 package main
 
 import (
-	"demoapp/data"
-	"demoapp/handlers"
-	"demoapp/middleware"
+	"gwftemplate/data"
+	"gwftemplate/handlers"
+	"gwftemplate/middleware"
 	"log"
 	"os"
 
@@ -23,7 +23,7 @@ func initApplication() *application {
 		log.Fatal(err)
 	}
 
-	g.AppName = "demoapp"
+	g.AppName = "gwftemplate"
 
 	myMiddleware := &middleware.Middleware{
 		App: g,

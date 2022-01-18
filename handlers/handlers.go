@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"demoapp/data"
+	"gwftemplate/data"
 	"net/http"
 
 	"github.com/ck3g/gwf"

@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"demoapp/data"
+	"gwftemplate/data"
 
 	"github.com/ck3g/gwf"
 )

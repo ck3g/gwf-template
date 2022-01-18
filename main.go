@@ -1,9 +1,9 @@
 package main
 
 import (
-	"demoapp/data"
-	"demoapp/handlers"
-	"demoapp/middleware"
+	"gwftemplate/data"
+	"gwftemplate/handlers"
+	"gwftemplate/middleware"
 
 	"github.com/ck3g/gwf"
 )
