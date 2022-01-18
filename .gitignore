@@ -1,0 +1,9 @@
+vendor
+tmp
+db-data
+
+# ignore CLI app
+gwf
+
+.idea
+coverage.out
